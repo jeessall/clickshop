@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --color-black: #000000;
+    --color-backrground: #f5fcf8;
+    --color-principal: #83f4bb;
+    --color-secundaria: #14dc7c;
+    --color-terciaria: #b4b4bc;
+    --color-white: #ffffff;
+    --color-botao: #005bc5;
+}
+
+body {
+    width: 100vh;
+    height: 100vw;
+    background-color: var(--color-black);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 190px;
+    padding: 50px;
+    background-color: var(--color-black);
+}
+
+.header img {
+    width: 600px;
+    border-radius: 50px;
+}
+
+.banner {
+    width: 1600px;
+    height: 1600px;
+    position: relative;
+}
+
+.background-banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.background-banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover!important;
+    object-position: center;
+}
+
+.box {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 55px;
+    
+}
+
+.conteudo-banner .titulo-conteudo {
+    font-family:'Gideon Roman', serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-white);
+    margin-top: 145px;
+}
+
+.conteudo-banner .subtitulo-conteudo {
+    font-family: 'Goldman', sans-serif;
+    font-size: 4rem;
+    margin-top: 35px;
+    color: var(--color-white);
+}
+
+.conteudo-banner .subtitulo-conteudo .span {
+    color: var(--color-secundaria);
+}
+
+.conteudo-banner .paragrafo-conteudo {
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    color: var(--color-white);
+    margin-top: 350px;
+    text-align: left;
+}
+
+.conteudo-banner .paragrafo-conteudo-2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    color: var(--color-white);
+    margin-top: 390px;
+    text-align: left;
+}
+
+.conteudo-banner .paragrafo-conteudo-2 .span-p {
+    text-transform: uppercase;
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+.botao {
+    width: 1600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.botao button {
+    background-color: var(--color-secundaria);
+    width: 45%;
+    height: 130px;
+    border-radius: 35px;
+    border: none;
+}
+
+.botao a {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--color-black);
+    text-decoration: none;
+    text-transform: uppercase;
+}

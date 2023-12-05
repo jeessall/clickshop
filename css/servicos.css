@@ -6,7 +6,7 @@
     --color-secundaria: #14dc7c;
     --color-terciaria: #b4b4bc;
     --color-white: #ffffff;
-    --color-serviços: #e9e9e9;
+    --color-serviços: #ecebeb;
     --color-beneficios: #bdd3b6;
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1600px;
+    width: 95%;
     height: 300px;
 }
 
@@ -27,14 +27,14 @@
     text-transform: uppercase;
     font-family: 'Goldman', sans-serif;
     font-weight: bold;
-    font-size: 3.9rem;
+    font-size: 2rem;
     color: var(--color-white);
-    margin-top: 65px;
+    margin-top: 25px;
 }
 
 .sobre {
-    width: 163%;
-    height: 500px;
+    width: 60%;
+    height: 300px;
     background-color: var(--color-serviços);
     border-top-right-radius: 800px;
     border-bottom-right-radius: 800px;
@@ -44,25 +44,25 @@
     justify-content: space-evenly;
     flex-direction: row-reverse;
     border-style: none;
+    padding: 85px;
 }
 
 .sobre .servicos h1 {
-    font-size: 5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 35px;
 }
 
 .sobre .servicos ul li {
-    font-size: 3rem;
+    font-size: 1rem;
     color: var(--color-black);
-    margin-left: 15px;
-    padding: 2px;
+    padding: 3px;
     list-style: inside;
 }
 
 .sobre .img-servicos img {
-    width: 90%;
+    width: 75%;
     border-radius: 30px;
     border: 5px solid var(--color-black);
     -webkit-box-shadow: 5px 5px 37px 17px #000000; 
@@ -70,70 +70,68 @@
 }
 
 .beneficios {
-    width: 163%;
-    height: 500px;
+    width: 60%;
+    height: 300px;
     background-color: var(--color-beneficios);
     border-top-left-radius: 800px;
     border-bottom-left-radius: 800px;
-    margin-left: 98px;
+    margin-left: 150px;
     margin-top: 95px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-style: none;
+    padding: 85px;
 }
 
 .beneficios .conteudo-beneficios h1 {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    
+    margin-bottom: 25px;    
 }
 
 .beneficios .conteudo-beneficios ul li {
-    font-size: 3rem;
+    font-size: 1rem;
     color: var(--color-black);
     padding: 2px;
-    margin-left: 15px;
     list-style: inside;
 }
 
 .beneficios .img-beneficios img {
-    width: 90%;
+    width: 78%;
     border-radius: 30px;
+    margin-left: 65px;
     border: 5px solid var(--color-black);
-    margin-left: 20px;
     -webkit-box-shadow: 5px 5px 37px 17px #000000; 
     box-shadow: 5px 5px 37px 17px #000000;
 }
 
 .contato {
-    width: 1600px;
+    width: 95%;
     height: 200px;
+    margin-top: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 95px;
     background-color: var(--color-black);
 }
 
 .contato-atendimento button {
     background-color: var(--color-secundaria);
     width: 100%;
-    height: 150px;
+    height: 130px;
+    padding: 20px;
     border-radius: 35px;
-    padding: 30px;
+    border: none;
 }
 
 .contato-atendimento a {
-    font-size: 5rem;
+    font-size: 3.3rem;
     font-weight: bold;
     color: var(--color-black);
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
 }
 
 

@@ -1,0 +1,239 @@
+:root {
+
+    --color-black: #000000;
+    --color-backrground: #f5fcf8;
+    --color-principal: #83f4bb;
+    --color-secundaria: #14dc7c;
+    --color-terciaria: #b4b4bc;
+    --color-white: #ffffff;
+    --color-serviços: #ebebeb;
+    --color-beneficios: #bdd3b6;
+    --color-red: #ff0000;
+}
+
+/*--color-serviços: #e9e9e9;
+    --color-beneficios: #aed4c8;*/
+
+/*.saiba-mais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.saiba-mais h1 {
+    flex-wrap: nowrap;
+    margin-top: 563px;
+    background-color: var(--color-black);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Goldman', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--color-white);
+    padding: 3px 3px;
+    }
+
+.saiba-mais a {
+    text-decoration: none;
+    color: var(--color-white);
+}*/
+
+.beneficios {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beneficios .beneficios-produtos {
+    margin-top: 540px;
+}
+
+.beneficios .beneficios-produtos h1 {
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding: 10px 10px;
+    text-align: center;  
+}
+
+.beneficios .beneficios-produtos h2 {
+    padding: 10px 10px;
+    padding-bottom: 15px;
+    color: var(--color-secundaria);
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.beneficios-produtos .lista-beneficios {
+    width: 317px;
+    height: 185px;
+    border-radius: 25px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, green, white, green, white);
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beneficios-produtos .lista-beneficios ul li {
+    font-size: 1.1rem;
+    color: var(--color-white);
+    list-style:circle;
+    padding: 2px;
+}
+
+.bold-18 {
+    color: var(--color-red);
+}
+
+.contato {
+    width: 95%;
+    height: 200px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.contato-atendimento button {
+    background-color: var(--color-secundaria);
+    width: 100%;
+    height: 130px;
+    padding: 20px;
+    border-radius: 35px;
+    border: none;
+}
+
+.contato-atendimento a {
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: var(--color-black);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.iphones h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.bold-preco {
+    color: var(--color-red);
+    margin-left: 5px;
+}
+
+.slider-iphones {
+    margin: 0 auto;
+    width: 300px;
+    height: 485px;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--color-white);
+}
+
+.sliders {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.sliders input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 300px;
+    height: 485px;
+}
+
+.manual-nav {
+    position: absolute;
+    width: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 62px;
+}
+
+.manual-btn {
+    border: 2px solid var(--color-white);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 14px;
+}
+
+.manual-btn:hover {
+    background-color: var(--color-white);
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -125%;
+}
+
+#radio7:checked ~ .first {
+    margin-left: -150%;
+}
+
+.btn-atendente {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 80px;
+    background-color: var(--color-secundaria);
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+.btn-atendente a {
+    font-size: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-black);
+    padding: 8px;
+}

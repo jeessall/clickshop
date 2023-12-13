@@ -89,6 +89,7 @@
     color: var(--color-white);
     list-style:circle;
     padding: 2px;
+    list-style: none;
 }
 
 .bold-18 {
@@ -127,7 +128,7 @@
     align-items: center;
     justify-content: center;
     color: var(--color-white);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 15px;
@@ -135,7 +136,7 @@
 
 .bold-preco {
     color: var(--color-red);
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .slider-iphones {
@@ -223,17 +224,18 @@
     width: 200px;
     height: 40px;
     padding: 5px;
+    border: none;
     border-radius: 80px;
     background-color: var(--color-secundaria);
     margin-top: 40px;
-    margin-left: 95px;
+    margin-left: 90px;
 }
 
 .btn-atendente a {
+    font-weight: bold;
     font-size: 1.2;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-black);
-    padding: 8px;
 }

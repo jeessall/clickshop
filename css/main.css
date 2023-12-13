@@ -64,7 +64,7 @@ header {
 .conteudo-banner .titulo-conteudo {
     flex-wrap: nowrap;
     font-family:'Gideon Roman', serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
     color: var(--color-white);
@@ -74,7 +74,7 @@ header {
 
 .conteudo-banner .subtitulo-conteudo {
     font-family: 'Goldman', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--color-white);
     padding-top: 5px;
     padding: 20px 10px;
@@ -90,15 +90,16 @@ header {
     color: var(--color-white);
     text-align: left;
     padding: 20px 10px;
+    padding-top: 65px;
 }
 
 .conteudo-banner .paragrafo-conteudo-2 {
     font-family: Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-white);
     text-align: left;
     padding: 20px 10px;
-    padding-top: 6px;
+    padding-top: 75px;
     padding-bottom: 8px;
 }
 
@@ -120,7 +121,7 @@ header {
     background-color: var(--color-secundaria);
     width: 60%;
     height: 50px;
-    margin-top: 18px;
+    margin-top: 22px;
     border-radius: 35px;
     border: none;
 }
